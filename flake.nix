@@ -21,6 +21,7 @@
         pkgs.python312Packages.notebook
         pkgs.python312Packages.numpy
         pkgs.python312Packages.matplotlib
+        pkgs.python312Packages.jupyterlab
         # pkgs.python312Packages.scipy
       ];
     in {
