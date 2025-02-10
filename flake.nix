@@ -25,6 +25,7 @@
         pkgs.python312Packages.seaborn
         pkgs.python312Packages.statsmodels
         pkgs.python312Packages.scipy
+        pkgs.python312Packages.pandas
       ];
     in {
       default = pkgs.mkShell {
