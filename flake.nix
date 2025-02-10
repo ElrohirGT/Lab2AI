@@ -22,7 +22,9 @@
         pkgs.python312Packages.numpy
         pkgs.python312Packages.matplotlib
         pkgs.python312Packages.jupyterlab
-        # pkgs.python312Packages.scipy
+        pkgs.python312Packages.seaborn
+        pkgs.python312Packages.statsmodels
+        pkgs.python312Packages.scipy
       ];
     in {
       default = pkgs.mkShell {
